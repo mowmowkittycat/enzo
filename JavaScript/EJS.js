@@ -38,3 +38,4 @@
         window.E = defineEjs();
     }
 })(window);
+// Man this is a really cool and totally not useless javascript framework

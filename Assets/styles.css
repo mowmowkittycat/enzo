@@ -1,0 +1,123 @@
+.text{
+    color: #4c4848;
+    text-align: center;
+    margin: 0px auto;
+}
+.Header1{
+    color: #ffffff;
+    text-align: center;
+    margin: 0px auto;
+	font-family: 'Montserrat';
+	font-size: 50px !important;
+	font-weight: 2000 !important;
+}
+body{
+    background: linear-gradient(90deg, #ff3939 , #6a8fff);
+    background-size: 400% 400%;
+    animation: BGG 30s ease infinite;
+	font-family: 'Montserrat'; font-size: 16px;
+}
+
+@keyframes BGG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+.link{
+    color: #ffffff;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 36;
+	font-weight: 1000;
+    text-decoration: none;
+}
+
+.hlink{
+    color: #ffffff;
+    text-align: center;
+    margin: 0px auto;
+    text-decoration: none;
+
+}
+.link:hover{
+    color: #ffffff;
+    text-align: center;
+    margin: 0px auto;
+    text-decoration: none;
+}
+
+
+
+.text {
+    color: #d6d6d6;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	text-align:left;
+	
+
+}
+.Content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	gap: 10px;
+}
+div#Head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+	flex-direction: column;
+    font-size: 1em;
+    background-color: black;
+    padding: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+	gap: 10px;
+	max-width: 60%;
+
+}
+
+.about-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+	flex-direction: row;
+	gap: 2%;
+	padding: 3%;
+	width: 90%;
+
+
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+	flex-direction: column;
+    font-size: 1em;
+    background-color: black;
+    padding: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+}
+
+.Section {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content:start;
+	align-items:start;
+    text-align: left;
+	flex-direction: column;
+	background-color: rgb(43, 43, 43);
+	padding: 1%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+
+}
