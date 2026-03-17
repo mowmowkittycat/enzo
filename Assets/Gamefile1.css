@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(90deg, #cc0000 , #0033cc);
+    background-size: 400% 400%;
+    animation: BGG 30s ease infinite;
+}
+
+@keyframes BGG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+div#Head{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    background-color: black;
+    padding: 0px;
+    border: 2px solid white;
+
+}
+.white{
+    color:white;
+    padding: 10px;
+}

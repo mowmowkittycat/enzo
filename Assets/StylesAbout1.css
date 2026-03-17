@@ -1,0 +1,50 @@
+h1.title{
+    text-align: center;
+    margin: 0 auto;
+    font: 36px Roboto mono black;
+}
+p.textleft{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: left;
+    position: absolute;
+    right: 55%;
+}
+body{
+    background: #c4c4c4;
+}
+h2.subhead1{
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    top: 5%;
+    right: 55%;
+}
+p.textright{
+    padding: 10px;
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 48%;
+}
+h2.subhead2{
+    font-size: 20px;
+    text-align: right;
+    position: absolute;
+    top: 5%;
+    left: 53%;
+}
+div#lefttext{
+    text-align: left;
+    right: 55%;
+
+}
+.link{
+    color: #ffffff;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 36;
+    text-decoration: none;
+    bottom: 100%;
+}

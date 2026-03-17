@@ -1,0 +1,118 @@
+.text{
+    color: #4c4848;
+    text-align: center;
+    margin: 0px auto;
+}
+.Header1{
+    color: #ffffff;
+    text-align: center;
+    font: 50px roboto mono black;
+    margin: 0px auto;
+}
+body{
+    background: linear-gradient(90deg, #cc0000 , #0033cc);
+    background-size: 400% 400%;
+    animation: BGG 30s ease infinite;
+}
+
+@keyframes BGG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+.link{
+    color: #ffffff;
+    font-family: Open Sans, sans-serif;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 36;
+    text-decoration: none;
+}
+.LL1{
+    color: #000000;
+    text-align: center;
+    margin: 2px auto;
+    margin-bottom: 2px;
+    position: absolute;
+    list-style: none;
+    left: 50%;
+    top: 64%;
+    transform: translateX(-50%) translateY(5%);
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.LL2{
+    color: #000000;
+    text-align: center;
+    margin: 2px auto;
+    margin-bottom: 2px;
+    position: absolute;
+    list-style: none;
+    left: 50%;
+    top: 68%;
+    transform: translateX(-50%) translateY(5%);
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.LL3{
+    color: #000000;
+    text-align: center;
+    margin: 2px auto;
+    margin-bottom: 2px;
+    position: absolute;
+    list-style: none;
+    left: 50%;
+    top: 72%;
+    transform: translateX(-50%) translateY(5%);
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.LL4{
+    color: #000000;
+    text-align: center;
+    margin: 2px auto;
+    margin-bottom: 2px;
+    position: absolute;
+    list-style: none;
+    left: 50%;
+    top: 76%;
+    transform: translateX(-50%) translateY(5%);
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hlink{
+    color: #ffffff;
+    text-align: center;
+    margin 0px auto;
+    text-decoration: none;
+
+}
+.link:hover{
+    color: #ffffff;
+    text-align: center;
+    margin: 0px auto;
+    text-decoration: none;
+}
+div#Head{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    background-color: black;
+    padding: 0px;
+    border: 2px solid white;
+
+}
